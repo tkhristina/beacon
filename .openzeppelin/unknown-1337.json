@@ -1,0 +1,80 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [],
+  "impls": {
+    "e660415dd4113c0aca40b9f81038a7d2af31e653eb58b508ca66625ba8509121": {
+      "address": "0xc2C833Fe3F83E730E4e0aE1fF21A8439A52b0c30",
+      "txHash": "0x99889290707d58f8b6d8d4b4bea8a87544913797e53fb7b8d11ba412878186ab",
+      "layout": {
+        "storage": [
+          {
+            "contract": "FoundationV1",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FoundationV1.sol:7"
+          },
+          {
+            "contract": "FoundationV1",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FoundationV1.sol:8"
+          },
+          {
+            "contract": "FoundationV1",
+            "label": "balance",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FoundationV1.sol:9"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "a1ed320f172cbb19f5e3679f8c9d63fe4755c576e815304b4089acf9de8a9528": {
+      "address": "0xe1A25e0BE1d656a1f45A4956De1c3fcB15df82AE",
+      "txHash": "0x329420e0d49514fdcbbbeb1c1e183f1cfc31089ab53462c3d78679c4b86291af",
+      "layout": {
+        "storage": [
+          {
+            "contract": "FoundationV1",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "..\\project:\\contracts\\FoundationV1.sol:7"
+          },
+          {
+            "contract": "FoundationV1",
+            "label": "owner",
+            "type": "t_address",
+            "src": "..\\project:\\contracts\\FoundationV1.sol:8"
+          },
+          {
+            "contract": "FoundationV1",
+            "label": "balance",
+            "type": "t_uint256",
+            "src": "..\\project:\\contracts\\FoundationV1.sol:9"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}
